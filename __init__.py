@@ -3,4 +3,4 @@ def config(c):
         	'https://github.com/azenk/smoker-api.git',
         	workdir='smokerapi-workdir', branch='master',
         	pollinterval=30))
-	pass
+	return c
