@@ -1,3 +1,5 @@
+from buildbot.changes.gitpoller import GitPoller
+
 def change_sources():
 	srcs = []
 	srcs.append(GitPoller(
